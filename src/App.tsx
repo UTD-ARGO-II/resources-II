@@ -1,6 +1,11 @@
 import React from 'react';
 import { Card } from '@utd-argo/ux-master-library';
-import { OpenInNew, GitHub, PictureAsPdf } from '@mui/icons-material';
+import {
+	OpenInNew,
+	GitHub,
+	PictureAsPdf,
+	PhotoLibrary
+} from '@mui/icons-material';
 import { archDoc, designDoc, projMgmtPlan, reqsDoc, testPlan } from './assets';
 import './App.css';
 
@@ -102,8 +107,16 @@ function App() {
 							href: testPlan,
 							icon: <PictureAsPdf />
 						},
-						{ text: 'Final Report', href: '', icon: <PictureAsPdf /> },
-						{ text: 'ARGO Presentation', href: '', icon: <PictureAsPdf /> }
+						{
+							text: 'Final Report (Unavailable)',
+							href: '',
+							icon: <PictureAsPdf />
+						},
+						{
+							text: 'ARGO Presentation',
+							href: 'https://cometmail-my.sharepoint.com/:p:/g/personal/ssb190008_utdallas_edu/EbMs98Qrn99Atsdte8-PgY8BZ2Lj3hpY-59JLml20FDA9w?e=MNocC6',
+							icon: <PhotoLibrary />
+						}
 					]}
 				/>
 			</div>
