@@ -6,7 +6,14 @@ import {
 	PictureAsPdf,
 	PhotoLibrary
 } from '@mui/icons-material';
-import { archDoc, designDoc, projMgmtPlan, reqsDoc, testPlan } from './assets';
+import {
+	archDoc,
+	designDoc,
+	projMgmtPlan,
+	reqsDoc,
+	testPlan,
+	finalReport
+} from './assets';
 import './App.css';
 
 function App() {
@@ -108,13 +115,18 @@ function App() {
 							icon: <PictureAsPdf />
 						},
 						{
-							text: 'Final Report (Unavailable)',
-							href: '',
+							text: 'Final Report',
+							href: finalReport,
 							icon: <PictureAsPdf />
 						},
 						{
 							text: 'ARGO Presentation',
-							href: 'https://cometmail-my.sharepoint.com/:p:/g/personal/ssb190008_utdallas_edu/EbMs98Qrn99Atsdte8-PgY8BZ2Lj3hpY-59JLml20FDA9w?e=MNocC6',
+							href: 'https://1drv.ms/p/s!AmDVB43RhQLLhOVSzYt1AcU9_XwiSg?e=f8rOu6',
+							icon: <PhotoLibrary />
+						},
+						{
+							text: 'UTD Presentation',
+							href: 'https://1drv.ms/p/s!AmDVB43RhQLLhOVR_piXLDnCH3C9eQ?e=v9slWy',
 							icon: <PhotoLibrary />
 						}
 					]}
