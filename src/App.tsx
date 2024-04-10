@@ -27,16 +27,16 @@ function App() {
 					links={[
 						{
 							text: 'Storybook Library Website',
-							href: 'https://main--63f2c0bed84a2da0ed389ac2.chromatic.com/'
+							href: 'https://660f1f3045766446634edc95-hptebytdtf.chromatic.com/'
 						},
 						{
 							text: 'Storybook Github Repo',
-							href: 'https://github.com/UTD-ARGO/argo-storybook',
+							href: 'https://github.com/UTD-ARGO-II/argo-storybook-II',
 							icon: <GitHub />
 						},
 						{
 							text: 'Storybook NPM Package',
-							href: 'https://www.npmjs.com/package/@utd-argo/ux-master-library'
+							href: 'https://www.npmjs.com/package/@utd-argo-ii/ux-master-library'
 						}
 					]}
 				/>
