@@ -27,7 +27,7 @@ function App() {
 					links={[
 						{
 							text: 'Storybook Library Website',
-							href: 'https://660f1f3045766446634edc95-hptebytdtf.chromatic.com/'
+							href: 'http://www.chromatic.com/library?appId=660f1f3045766446634edc95'
 						},
 						{
 							text: 'Storybook Github Repo',
@@ -37,51 +37,10 @@ function App() {
 						{
 							text: 'Storybook NPM Package',
 							href: 'https://www.npmjs.com/package/@utd-argo-ii/ux-master-library'
-						}
-					]}
-				/>
-				<RecCard
-					title="Fresh Oranges"
-					links={[
-						{
-							text: 'Fresh Oranges Website',
-							href: 'https://utd-argo.github.io/argo-rtclone-example/'
 						},
 						{
-							text: 'Fresh Oranges Github Repo',
-							href: 'https://github.com/UTD-ARGO/argo-rtclone-example',
-							icon: <GitHub />
-						}
-					]}
-					desc="A rotten tomatoes clone"
-				/>
-				<RecCard
-					title="Stocks"
-					desc="A stocks dashboard"
-					links={[
-						{
-							text: 'Stocks Website',
-							href: 'https://utd-argo.github.io/argo-stocks-example/'
-						},
-						{
-							text: 'Stocks Github Repo',
-							href: 'https://github.com/UTD-ARGO/argo-stocks-example',
-							icon: <GitHub />
-						}
-					]}
-				/>
-				<RecCard
-					title="Socialyze!"
-					desc="A social media analytics dashboard"
-					links={[
-						{
-							text: 'Socialyze! Website',
-							href: 'https://utd-argo.github.io/argo-analytics-example/'
-						},
-						{
-							text: 'Socialyze! Github Repo',
-							href: 'https://github.com/UTD-ARGO/argo-analytics-example',
-							icon: <GitHub />
+							text: 'StorybookGPT',
+							href: 'https://chat.openai.com/g/g-C38VKZySB-storybook-gpt'
 						}
 					]}
 				/>
@@ -121,12 +80,12 @@ function App() {
 						},
 						{
 							text: 'ARGO Presentation',
-							href: 'https://1drv.ms/p/s!AmDVB43RhQLLhOVSzYt1AcU9_XwiSg?e=f8rOu6',
+							href: 'https://docs.google.com/presentation/d/1yrbnyEgRuGgoUdAlMto71pNjznOtvNdOv_gHPz6Er2w/edit?usp=sharing',
 							icon: <PhotoLibrary />
 						},
 						{
 							text: 'UTD Presentation',
-							href: 'https://1drv.ms/p/s!AmDVB43RhQLLhOVR_piXLDnCH3C9eQ?e=v9slWy',
+							href: 'https://docs.google.com/presentation/d/1RObnZCj-4Yj9cgPzyMqxQ3o8Fju8vLMqgL0uXGZN7E0/edit?usp=sharing',
 							icon: <PhotoLibrary />
 						}
 					]}
