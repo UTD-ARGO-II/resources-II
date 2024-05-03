@@ -12,7 +12,8 @@ import {
 	projMgmtPlan,
 	reqsDoc,
 	testPlan,
-	finalReport
+	finalReport,
+	projectDocumentation
 } from './assets';
 import './App.css';
 
@@ -76,6 +77,11 @@ function App() {
 						{
 							text: 'Final Report',
 							href: finalReport,
+							icon: <PictureAsPdf />
+						},
+						{
+							text: 'Storybook GPT Documentation',
+							href: projectDocumentation,
 							icon: <PictureAsPdf />
 						},
 						{
